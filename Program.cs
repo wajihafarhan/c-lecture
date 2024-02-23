@@ -187,3 +187,17 @@ switch (day)
         Console.WriteLine("Please Enter Correct Day");
         break;
 }
+// for loop
+// sum of odd numbers
+int sum = 0;
+for (int i = 0; i <= 21; i++)
+{
+    if (i % 2 == 0)
+
+    {
+
+        continue;
+    }
+    sum += i;
+    Console.WriteLine($"{i}" );
+} Console.WriteLine($"sum" +su
